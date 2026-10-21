@@ -1,0 +1,58 @@
+.container {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 1rem;
+     background-color: white;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.6rem 0.8rem;
+    display: block;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    min-height: 100px;
+    padding: 2rem;
+
+    a {
+        color: white;
+        font-size: 24px;
+    }
+
+    ul {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        padding: 0;
+        list-style: none;
+    }
+}
+    
+
+header {
+
+    text-align: center;
+
+}
+.center-image {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    zoom: 110%;
+}
